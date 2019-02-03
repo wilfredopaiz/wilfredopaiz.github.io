@@ -285,12 +285,20 @@ header{
 .cont{
     width: 70%;
     margin-left: 15%;
+    margin-top: 40px;
 }
 
 .home{
     display: table;
     width: 100%;
     padding: 3%;
+    background-image: linear-gradient(rgb(0,0,0,0.3), rgb(0,0,0,0.3)),url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(max-width: 769px){
+    .home{background-position: 80% center;}
 }
 
 #particles-js {
