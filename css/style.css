@@ -1,26 +1,9 @@
-/* --------------------------------- */
-/* Css Styles                        */
-/*---------------------------------- */
-
-/**
-	Gorge - Portfolio Template 
-	Author : Tavonline
-	Copyright 2018
-
-/* Table of Content
-==================================================
-	
-	1. Body and Core Css
-	2. Home Page
-     2.1 Portfolio Section
-     2.2 Twitter Section
-
-
-
 /*------------------------ 1 Body and Core Css ------------------------*/
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,500,600,700,800');
+
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     padding-bottom: 170px;
     font-weight: 500;
 }
@@ -525,7 +508,7 @@ header{
     font-size: 14px !important;
     font-weight: 600 !important;
     color: #000 !important;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Montserrat Alternates', sans-serif !important;
     border-radius: 50px;
     background-size: 202% 100%;
     background-position:right bottom;
@@ -1888,7 +1871,7 @@ textarea.form-message{
     }
 
     body {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Montserrat Alternates', sans-serif;
         padding-bottom: 218px;
     }
 
