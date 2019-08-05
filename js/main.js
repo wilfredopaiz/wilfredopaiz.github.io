@@ -135,25 +135,25 @@ $(document).ready( function() {
     }); 
 
 
-    //TWITTER
-    if ($('.widget-twitter .tweet').length) {
-        $('.widget-twitter .tweet').twittie({
-            username: 'envato'
-            , list: null
-            , dateFormat: '%B %d, %Y'
-            , template: '{{tweet}} <br/> <span class="date">{{date}}</span>'
-            , count: 10
+    // //TWITTER
+    // if ($('.widget-twitter .tweet').length) {
+    //     $('.widget-twitter .tweet').twittie({
+    //         username: 'envato'
+    //         , list: null
+    //         , dateFormat: '%B %d, %Y'
+    //         , template: '{{tweet}} <br/> <span class="date">{{date}}</span>'
+    //         , count: 10
 
-        }, function () {
-            setInterval(function() {
-                var item = $('.widget-twitter .tweet ul').find('li:first');
+    //     }, function () {
+    //         setInterval(function() {
+    //             var item = $('.widget-twitter .tweet ul').find('li:first');
 
-                item.animate( {marginLeft: '-220px', 'opacity': '0'}, 500, function() {
-                    $(this).detach().appendTo('.widget-twitter .tweet ul').removeAttr('style');
-                });
-            }, 5000);
-        });
-    }
+    //             item.animate( {marginLeft: '-220px', 'opacity': '0'}, 500, function() {
+    //                 $(this).detach().appendTo('.widget-twitter .tweet ul').removeAttr('style');
+    //             });
+    //         }, 5000);
+    //     });
+    // }
 
 
     // RESPONSIVE MENU
