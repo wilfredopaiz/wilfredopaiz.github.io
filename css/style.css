@@ -471,12 +471,11 @@ header{
 }
 
 .cbp-item figure p {
-  font-size: 11px;
-  font-weight: 300;
+  font-size: 13px;
   letter-spacing: 1px;
   opacity: 0;
   top: 50%;
-  color: #ffffffbd;
+  color: #fff;
   -webkit-transform: translateY(40px);
   transform: translateY(40px);
     -webkit-box-sizing: border-box;
