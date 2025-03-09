@@ -2,19 +2,50 @@
   "personalInfo": {
     "name": "Wilfredo Paiz",
     "title": "Desarrollador de Software",
-    "birthDate": "15 de Enero de 1990",
-    "location": "San Francisco, CA",
-    "email": "wilfredo.paiz@example.com"
+    "birthDate": "3 de Septiembre de 1998",
+    "location": "Valencia, España",
+    "email": "wilfredopaizpaz@gmail.com"
   },
   "skills": {
-    "programmingLanguages": ["JavaScript", "TypeScript", "Python", "Java", "C#"],
-    "frameworks": ["React", "Next.js", "Node.js", "Express", "Django"],
-    "databases": ["MongoDB", "PostgreSQL", "MySQL", "Firebase"],
-    "tools": ["Git", "Docker", "AWS", "CI/CD", "Jira"],
+    "programmingLanguages": [
+      "TypeScript",
+      "Python",
+      "Java",
+      "C#",
+      "PHP"
+    ],
+    "frameworks": [
+      "Next.js",
+      "Express",
+      "FastAPI",
+      "Spring Boot",
+      "Laravel"
+    ],
+    "databases": [
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL"
+    ],
+    "tools": [
+      "Git",
+      "Docker",
+      "AWS",
+      "Kubernetes",
+      "Jira"
+    ],
     "languages": [
-      { "name": "Inglés", "level": "Fluido" },
-      { "name": "Español", "level": "Nativo" },
-      { "name": "Francés", "level": "Intermedio" }
+      {
+        "name": "Español",
+        "level": "Nativo (C2)"
+      },
+      {
+        "name": "Inglés",
+        "level": "Avanzado (C1)"
+      },
+      {
+        "name": "Francés",
+        "level": "Básico (A1)"
+      }
     ]
   },
   "certifications": [
@@ -22,66 +53,94 @@
       "name": "AWS Certified Solutions Architect",
       "issuer": "Amazon Web Services",
       "year": "2022"
-    },
-    {
-      "name": "Google Professional Cloud Developer",
-      "issuer": "Google Cloud",
-      "year": "2021"
-    },
-    {
-      "name": "Microsoft Certified: Azure Developer Associate",
-      "issuer": "Microsoft",
-      "year": "2020"
     }
   ],
   "workExperience": [
     {
-      "position": "Ingeniero de Software Senior",
-      "company": "TechCorp Inc.",
-      "period": "2020 - Presente",
-      "description": "Lideré el desarrollo de una plataforma SaaS basada en la nube que atiende a más de 50,000 usuarios. Implementé arquitectura de microservicios utilizando Node.js y Docker, resultando en una mejora del 40% en el rendimiento del sistema.",
-      "technologies": ["React", "Node.js", "AWS", "Docker"]
+      "position": "Software Consultant",
+      "company": "CompSci, LLC",
+      "period": "Abr 2020 - Mar 2025",
+      "location": "Dallas, Texas, Estados Unidos",
+      "type": "Remoto",
+      "description": "Trabajé en el mantenimiento y desarrollo de nuevas funcionalidades para diversos proyectos de distintos clientes. Principalmente, desempeñé el rol de desarrollador en una empresa estadounidense dedicada al SaaS, cuyo producto es una plataforma utilizada por cientos de universidades en Estados Unidos. Esta plataforma permite a los instructores crear problemas, ejercicios y libros interactivos para los estudiantes.",
+      "technologies": [
+        "JavaScript",
+        "C#",
+        "WebForms",
+        "Visual Studio",
+        "SQL Server"
+      ]
     },
     {
-      "position": "Desarrollador Full Stack",
-      "company": "InnovateSoft",
-      "period": "2017 - 2020",
-      "description": "Desarrollé y mantuve múltiples aplicaciones web para clientes en los sectores de finanzas y salud. Implementé diseños responsivos y APIs RESTful, mejorando la participación de los usuarios en un 35%.",
-      "technologies": ["JavaScript", "React", "Express", "MongoDB"]
+      "position": "Software Developer",
+      "company": "CloudBiz",
+      "period": "Mar 2019 - Ene 2020",
+      "location": "San Pedro Sula, Honduras",
+      "type": "Presencial",
+      "description": "Participé en el desarrollo del producto principal de la empresa, un sistema de facturación y contabilidad utilizado en Honduras, El Salvador y Colombia. Trabajé en el backend y frontend, optimizando código, escalando el sistema a nuevos mercados y agregando nuevas funcionalidades en un entorno fintech desafiante.",
+      "technologies": [
+        "PHP (Laravel 5.6)",
+        "Node.js (ExpressJS)",
+        "MySQL",
+        "Angular",
+        "ES6",
+        "jQuery",
+        "Git",
+        "Linux"
+      ]
     },
     {
-      "position": "Desarrollador Web Junior",
-      "company": "WebSolutions Co.",
-      "period": "2015 - 2017",
-      "description": "Colaboré con equipos de diseño y producto para desarrollar sitios web responsivos para pequeñas y medianas empresas. Implementé mejores prácticas de SEO, aumentando el tráfico orgánico en un 25%.",
-      "technologies": ["HTML/CSS", "JavaScript", "PHP", "MySQL"]
+      "position": "Web Master",
+      "company": "Verde Creativa",
+      "period": "Ago 2018 - Mar 2019",
+      "location": "San Pedro Sula, Honduras",
+      "type": "Presencial",
+      "description": "Desarrollé aplicaciones frontend y gestioné plataformas web existentes en una agencia digital. También trabajé en el backend en algunos proyectos, asegurando la funcionalidad y el rendimiento de las aplicaciones.",
+      "technologies": [
+        "Vue.js 2",
+        "JavaScript (ES6)",
+        "jQuery",
+        "PHP",
+        "MySQL"
+      ]
     }
   ],
   "education": [
     {
-      "degree": "Maestría en Ciencias de la Computación",
-      "institution": "Universidad de Stanford",
-      "period": "2013 - 2015",
-      "description": "Especializado en Inteligencia Artificial y Aprendizaje Automático. Tesis sobre \"Redes Neuronales para Procesamiento de Lenguaje Natural.\""
+      "degree": "Máster Universitario en Tecnologías Web, Computación en la Nube y Aplicaciones Móviles",
+      "institution": "Universidad de Valencia",
+      "location": "Valencia, España",
+      "period": "2022 - 2024",
+      "description": "Máster especializado en Desarrollo Web, Despliegues con Kubernetes, Administración de Proyectos y Aplicaciones Móviles. Trabajo de fin de máster: 'Desarrollo de una Plataforma Interactiva para el Reporte y Gestión de Incidencias Urbanas'."
     },
     {
-      "degree": "Licenciatura en Ingeniería de Software",
-      "institution": "Universidad de California, Berkeley",
-      "period": "2009 - 2013",
-      "description": "Graduado con honores. Participé en múltiples hackathons y competencias de programación. Completé una pasantía en Google."
+      "degree": "Ingeniería en Informática",
+      "institution": "Universidad Tecnológica Centroamericana",
+      "location": "San Pedro Sula, Honduras",
+      "period": "2015 - 2019",
+      "description": "Formación enfocada en desarrollo de aplicaciones de escritorio y web. Participé en múltiples hackathons y competencias de programación. Trabajo de tesis: desarrollo de una aplicación para la compra y venta de repuestos."
     }
   ],
   "keyProjects": [
     {
       "title": "Plataforma de Comercio Electrónico",
       "description": "Una solución completa de comercio electrónico con procesamiento de pagos, gestión de inventario y panel de análisis.",
-      "technologies": ["React", "Node.js", "MongoDB", "Stripe"]
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Stripe"
+      ]
     },
     {
       "title": "Panel Financiero",
       "description": "Un panel interactivo para visualizar datos financieros con gráficos personalizables e informes automatizados.",
-      "technologies": ["React", "D3.js", "Express", "Redis"]
+      "technologies": [
+        "React",
+        "D3.js",
+        "Express",
+        "Redis"
+      ]
     }
   ]
 }
-

@@ -8,15 +8,15 @@
     "cv": "Currículum"
   },
   "hero": {
-    "title": "Desarrollador de Software & Solucionador de Problemas",
-    "subtitle": "Construyo soluciones elegantes para problemas complejos con código limpio y eficiente.",
+    "title": "Desarrollador de Software Especialista en Web y Arquitecturas Backend",
+    "subtitle": "Construyo aplicaciones optimizadas, seguras y escalables con tecnologías modernas.",
     "viewProjects": "Ver Proyectos",
     "contactMe": "Contáctame"
   },
   "about": {
     "title": "Sobre Mí",
-    "paragraph1": "Soy Wilfredo Paiz, un desarrollador de software apasionado con experiencia en la creación de aplicaciones web modernas. Con una sólida base en tecnologías frontend y backend, creo experiencias de usuario fluidas respaldadas por una arquitectura robusta.",
-    "paragraph2": "Mi enfoque combina excelencia técnica con resolución creativa de problemas, lo que me permite ofrecer soluciones que son tanto innovadoras como mantenibles."
+    "paragraph1": "Soy Wilfredo Paiz, ingeniero en informática apasionado por el desarrollo web y móvil. Cuento con 6 años de experiencia en desarrollo de software, especializándome en la creación de APIs y UIs con diversos frameworks. Además, tengo un conocimiento sólido en despliegues a producción con Docker y Kubernetes.",
+    "paragraph2": "A lo largo de mi carrera, he trabajado en empresas de sectores fintech, e-learning, SaaS y agencias digitales, participando en proyectos clave que han impactado a cientos de usuarios."
   },
   "skills": {
     "title": "Habilidades y Tecnologías"
@@ -27,7 +27,8 @@
     "backToHome": "Volver al Inicio",
     "backToProjects": "Volver a Proyectos",
     "allProjectsTitle": "Mis Proyectos",
-    "allProjectsDescription": "Una colección de mi trabajo que abarca aplicaciones web, desarrollo móvil y más. Cada proyecto representa un desafío único y una solución."
+    "allProjectsDescription": "Una colección de mi trabajo que abarca aplicaciones web, desarrollo móvil y más. Cada proyecto representa un desafío único y una solución.",
+    "viewDetails": "Ver Detalles"
   },
   "contact": {
     "title": "Ponte en Contacto",
@@ -80,4 +81,3 @@
     "completed": "Completado"
   }
 }
-

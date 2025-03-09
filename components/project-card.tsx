@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
+import { useLanguage } from "@/contexts/language-context"
 
 interface ProjectCardProps {
   title: string
@@ -28,6 +29,7 @@ export default function ProjectCard({
   id = title.toLowerCase().replace(/\s+/g, "-"),
   index = 0,
 }: ProjectCardProps) {
+  const { t } = useLanguage()
   // Item animation for use in staggered containers
   const item = {
     hidden: { opacity: 0, y: 20 },
@@ -101,7 +103,7 @@ export default function ProjectCard({
               size="sm"
               className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 transition-all duration-300"
             >
-              View Details
+              {t("projects.viewDetails")}
             </Button>
           </Link>
         </CardFooter>

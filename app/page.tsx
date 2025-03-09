@@ -104,10 +104,10 @@ export default function Portfolio() {
               >
                 <div className="w-[95%] h-[95%] rounded-full overflow-hidden">
                   <Image
-                    src="/placeholder.svg?height=400&width=400"
+                    src="/foto_wil.jpg"
                     alt="Wilfredo Paiz"
-                    width={400}
-                    height={400}
+                    width={330}
+                    height={330}
                     className="object-cover w-full h-full"
                   />
                 </div>
@@ -128,21 +128,21 @@ export default function Portfolio() {
             </h2>
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
               {[
-                "JavaScript",
                 "TypeScript",
                 "React",
                 "Next.js",
+                "Angular",
                 "Node.js",
-                "Express",
-                "MongoDB",
+                "Laravel",
+                "FastAPI",
+                "Spring Boot",
                 "PostgreSQL",
-                "GraphQL",
-                "REST API",
-                "Tailwind CSS",
-                "Git",
+                "MongoDB",
+                "MySQL",
+                "RabbitMQ",
                 "Docker",
-                "AWS",
-                "CI/CD",
+                "Kubernetes",
+                "Git",
                 "Jest",
               ].map((skill, index) => (
                 <motion.div
@@ -204,44 +204,53 @@ export default function Portfolio() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: 0.1 }}
               >
-                <Button
-                  variant="outline"
-                  className="border-gray-700 text-gray-300 hover:text-white transition-all duration-300"
-                  size="lg"
-                >
-                  <Mail className="mr-2 h-5 w-5" />
-                  {t("contact.email")}
-                </Button>
+                <a href="mailto:wilfredopaizpaz@gmail.com" target="_blank" rel="noopener noreferrer">
+                  <Button
+                    variant="outline"
+                    className="border-gray-700 text-gray-300 hover:text-white transition-all duration-300"
+                    size="lg"
+                  >
+                    <Mail className="mr-2 h-5 w-5" />
+                    {t("contact.email")}
+                  </Button>
+                </a>
               </motion.div>
+
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: 0.2 }}
               >
-                <Button
-                  variant="outline"
-                  className="border-gray-700 text-gray-300 hover:text-white transition-all duration-300"
-                  size="lg"
-                >
-                  <Linkedin className="mr-2 h-5 w-5" />
-                  {t("contact.linkedin")}
-                </Button>
+                <a href="https://www.linkedin.com/in/wilfredo-paiz/" target="_blank" rel="noopener noreferrer">
+                  <Button
+                    variant="outline"
+                    className="border-gray-700 text-gray-300 hover:text-white transition-all duration-300"
+                    size="lg"
+                  >
+                    <Linkedin className="mr-2 h-5 w-5" />
+                    {t("contact.linkedin")}
+                  </Button>
+                </a>
               </motion.div>
+
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.4, delay: 0.3 }}
               >
-                <Button
-                  variant="outline"
-                  className="border-gray-700 text-gray-300 hover:text-white transition-all duration-300"
-                  size="lg"
-                >
-                  <Github className="mr-2 h-5 w-5" />
-                  {t("contact.github")}
-                </Button>
+                <a href="https://github.com/wpayze" target="_blank" rel="noopener noreferrer">
+                  <Button
+                    variant="outline"
+                    className="border-gray-700 text-gray-300 hover:text-white transition-all duration-300"
+                    size="lg"
+                  >
+                    <Github className="mr-2 h-5 w-5" />
+                    {t("contact.github")}
+                  </Button>
+                </a>
               </motion.div>
             </div>
+
           </div>
         </AnimatedSection>
       </main>

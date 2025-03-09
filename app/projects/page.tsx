@@ -10,28 +10,29 @@ import { useLanguage } from "@/contexts/language-context"
 import { motion } from "framer-motion"
 import { getProjectsData } from "@/utils/data-loader"
 import TechnologyFilter from "@/components/technology-filter"
+import { Project } from "@/utils/types"
 
 export default function ProjectsPage() {
   const { t, language } = useLanguage()
-  const projectsData = getProjectsData(language)
+  const projectsData: Project[] = getProjectsData(language)
   const [selectedTechnologies, setSelectedTechnologies] = useState<string[]>([])
 
   // Extract all unique technologies from projects
-  const allTechnologies = useMemo(() => {
+  const allTechnologies = useMemo<string[]>(() => {
     const techSet = new Set<string>()
-    Object.values(projectsData).forEach((project) => {
+    projectsData.forEach((project: Project) => {
       project.technologies.forEach((tech) => techSet.add(tech))
     })
     return Array.from(techSet).sort()
   }, [projectsData])
 
   // Filter projects based on selected technologies
-  const filteredProjects = useMemo(() => {
+  const filteredProjects = useMemo<Project[]>(() => {
     if (selectedTechnologies.length === 0) {
-      return Object.values(projectsData)
+      return projectsData
     }
 
-    return Object.values(projectsData).filter((project) =>
+    return projectsData.filter((project: Project) =>
       selectedTechnologies.every((tech) => project.technologies.includes(tech)),
     )
   }, [projectsData, selectedTechnologies])

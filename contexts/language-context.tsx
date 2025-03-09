@@ -21,7 +21,7 @@ const translations = {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<Language>("en")
+  const [language, setLanguage] = useState<Language>("es")
 
   // Load saved language preference from localStorage on client side
   useEffect(() => {

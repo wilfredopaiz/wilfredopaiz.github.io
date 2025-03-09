@@ -1,6 +1,6 @@
 "use client"
 
-import { ArrowLeft, Download, Calendar, MapPin, Award } from "lucide-react"
+import { ArrowLeft, Download, Calendar, MapPin, Award, Briefcase } from "lucide-react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import Navbar from "@/components/navbar"
@@ -165,7 +165,7 @@ export default function CVPage() {
             </motion.div>
 
             {/* Certifications */}
-            <motion.div variants={item}>
+            {/* <motion.div variants={item}>
               <Card className="bg-gradient-to-br from-gray-900 to-black border-gray-800 transition-all duration-300 hover:shadow-md hover:shadow-purple-900/10">
                 <CardHeader>
                   <CardTitle className="text-xl font-bold">{t("cv.certifications")}</CardTitle>
@@ -184,7 +184,7 @@ export default function CVPage() {
                   ))}
                 </CardContent>
               </Card>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
 
           {/* Right Column - Experience & Education */}
@@ -208,6 +208,20 @@ export default function CVPage() {
                           <div className="flex items-center gap-2 text-sm text-gray-400">
                             <Calendar className="h-4 w-4" />
                             <span>{job.period}</span>
+                          </div>
+                        </div>
+                        <div className="flex flex-wrap gap-4 mt-1">
+                          <div className="flex items-center gap-2 text-sm text-gray-400">
+                            <MapPin className="h-4 w-4" />
+                            <span>
+                              {job.location}
+                            </span>
+                          </div>
+                          <div className="flex items-center gap-2 text-sm text-gray-400">
+                            <Briefcase className="h-4 w-4" />
+                            <span>
+                              {job.type}
+                            </span>
                           </div>
                         </div>
                         <p className="text-gray-300">{job.description}</p>
@@ -246,6 +260,12 @@ export default function CVPage() {
                             <span>{edu.period}</span>
                           </div>
                         </div>
+                        <div className="flex items-center gap-2 text-sm text-gray-400 mt-1">
+                          <MapPin className="h-4 w-4" />
+                          <span>
+                            {edu.location}
+                          </span>
+                        </div>
                         <p className="text-gray-300">{edu.description}</p>
                       </div>
                     </div>
@@ -255,7 +275,7 @@ export default function CVPage() {
             </motion.div>
 
             {/* Projects */}
-            <motion.div variants={item}>
+            {/* <motion.div variants={item}>
               <Card className="bg-gradient-to-br from-gray-900 to-black border-gray-800 transition-all duration-300 hover:shadow-md hover:shadow-purple-900/10">
                 <CardHeader className="flex flex-row justify-between items-center">
                   <CardTitle className="text-xl font-bold">{t("cv.keyProjects")}</CardTitle>
@@ -288,7 +308,7 @@ export default function CVPage() {
                   ))}
                 </CardContent>
               </Card>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
         </div>
       </main>

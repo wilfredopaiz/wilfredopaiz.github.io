@@ -24,7 +24,7 @@ export default function LanguageSwitcher() {
         >
           <div className="relative w-5 h-3.5 overflow-hidden rounded">
             <Image
-              src="/placeholder.svg?height=35&width=50"
+              src="/uk.svg?height=35&width=50"
               alt="UK Flag"
               width={50}
               height={35}
@@ -39,7 +39,7 @@ export default function LanguageSwitcher() {
         >
           <div className="relative w-5 h-3.5 overflow-hidden rounded">
             <Image
-              src="/placeholder.svg?height=35&width=50"
+              src="/es.svg?height=35&width=50"
               alt="Spain Flag"
               width={50}
               height={35}
