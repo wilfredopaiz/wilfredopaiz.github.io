@@ -1,0 +1,87 @@
+{
+  "personalInfo": {
+    "name": "Wilfredo Paiz",
+    "title": "Software Developer",
+    "birthDate": "January 15, 1990",
+    "location": "San Francisco, CA",
+    "email": "wilfredo.paiz@example.com"
+  },
+  "skills": {
+    "programmingLanguages": ["JavaScript", "TypeScript", "Python", "Java", "C#"],
+    "frameworks": ["React", "Next.js", "Node.js", "Express", "Django"],
+    "databases": ["MongoDB", "PostgreSQL", "MySQL", "Firebase"],
+    "tools": ["Git", "Docker", "AWS", "CI/CD", "Jira"],
+    "languages": [
+      { "name": "English", "level": "Fluent" },
+      { "name": "Spanish", "level": "Native" },
+      { "name": "French", "level": "Intermediate" }
+    ]
+  },
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect",
+      "issuer": "Amazon Web Services",
+      "year": "2022"
+    },
+    {
+      "name": "Google Professional Cloud Developer",
+      "issuer": "Google Cloud",
+      "year": "2021"
+    },
+    {
+      "name": "Microsoft Certified: Azure Developer Associate",
+      "issuer": "Microsoft",
+      "year": "2020"
+    }
+  ],
+  "workExperience": [
+    {
+      "position": "Senior Software Engineer",
+      "company": "TechCorp Inc.",
+      "period": "2020 - Present",
+      "description": "Led the development of a cloud-based SaaS platform serving over 50,000 users. Implemented microservices architecture using Node.js and Docker, resulting in a 40% improvement in system performance.",
+      "technologies": ["React", "Node.js", "AWS", "Docker"]
+    },
+    {
+      "position": "Full Stack Developer",
+      "company": "InnovateSoft",
+      "period": "2017 - 2020",
+      "description": "Developed and maintained multiple web applications for clients in finance and healthcare sectors. Implemented responsive designs and RESTful APIs, improving user engagement by 35%.",
+      "technologies": ["JavaScript", "React", "Express", "MongoDB"]
+    },
+    {
+      "position": "Junior Web Developer",
+      "company": "WebSolutions Co.",
+      "period": "2015 - 2017",
+      "description": "Collaborated with design and product teams to develop responsive websites for small to medium businesses. Implemented SEO best practices, increasing organic traffic by 25%.",
+      "technologies": ["HTML/CSS", "JavaScript", "PHP", "MySQL"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "institution": "Stanford University",
+      "period": "2013 - 2015",
+      "description": "Specialized in Artificial Intelligence and Machine Learning. Thesis on \"Neural Networks for Natural Language Processing.\""
+    },
+    {
+      "degree": "Bachelor of Science in Software Engineering",
+      "institution": "University of California, Berkeley",
+      "period": "2009 - 2013",
+      "description": "Graduated with honors. Participated in multiple hackathons and coding competitions. Completed internship at Google."
+    }
+  ],
+  "keyProjects": [
+    {
+      "title": "E-Commerce Platform",
+      "description": "A full-stack e-commerce solution with payment processing, inventory management, and analytics dashboard.",
+      "technologies": ["React", "Node.js", "MongoDB", "Stripe"]
+    },
+    {
+      "title": "Financial Dashboard",
+      "description": "An interactive dashboard for visualizing financial data with customizable charts and automated reporting.",
+      "technologies": ["React", "D3.js", "Express", "Redis"]
+    }
+  ]
+}
+

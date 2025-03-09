@@ -1,0 +1,87 @@
+{
+  "personalInfo": {
+    "name": "Wilfredo Paiz",
+    "title": "Desarrollador de Software",
+    "birthDate": "15 de Enero de 1990",
+    "location": "San Francisco, CA",
+    "email": "wilfredo.paiz@example.com"
+  },
+  "skills": {
+    "programmingLanguages": ["JavaScript", "TypeScript", "Python", "Java", "C#"],
+    "frameworks": ["React", "Next.js", "Node.js", "Express", "Django"],
+    "databases": ["MongoDB", "PostgreSQL", "MySQL", "Firebase"],
+    "tools": ["Git", "Docker", "AWS", "CI/CD", "Jira"],
+    "languages": [
+      { "name": "Inglés", "level": "Fluido" },
+      { "name": "Español", "level": "Nativo" },
+      { "name": "Francés", "level": "Intermedio" }
+    ]
+  },
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect",
+      "issuer": "Amazon Web Services",
+      "year": "2022"
+    },
+    {
+      "name": "Google Professional Cloud Developer",
+      "issuer": "Google Cloud",
+      "year": "2021"
+    },
+    {
+      "name": "Microsoft Certified: Azure Developer Associate",
+      "issuer": "Microsoft",
+      "year": "2020"
+    }
+  ],
+  "workExperience": [
+    {
+      "position": "Ingeniero de Software Senior",
+      "company": "TechCorp Inc.",
+      "period": "2020 - Presente",
+      "description": "Lideré el desarrollo de una plataforma SaaS basada en la nube que atiende a más de 50,000 usuarios. Implementé arquitectura de microservicios utilizando Node.js y Docker, resultando en una mejora del 40% en el rendimiento del sistema.",
+      "technologies": ["React", "Node.js", "AWS", "Docker"]
+    },
+    {
+      "position": "Desarrollador Full Stack",
+      "company": "InnovateSoft",
+      "period": "2017 - 2020",
+      "description": "Desarrollé y mantuve múltiples aplicaciones web para clientes en los sectores de finanzas y salud. Implementé diseños responsivos y APIs RESTful, mejorando la participación de los usuarios en un 35%.",
+      "technologies": ["JavaScript", "React", "Express", "MongoDB"]
+    },
+    {
+      "position": "Desarrollador Web Junior",
+      "company": "WebSolutions Co.",
+      "period": "2015 - 2017",
+      "description": "Colaboré con equipos de diseño y producto para desarrollar sitios web responsivos para pequeñas y medianas empresas. Implementé mejores prácticas de SEO, aumentando el tráfico orgánico en un 25%.",
+      "technologies": ["HTML/CSS", "JavaScript", "PHP", "MySQL"]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Maestría en Ciencias de la Computación",
+      "institution": "Universidad de Stanford",
+      "period": "2013 - 2015",
+      "description": "Especializado en Inteligencia Artificial y Aprendizaje Automático. Tesis sobre \"Redes Neuronales para Procesamiento de Lenguaje Natural.\""
+    },
+    {
+      "degree": "Licenciatura en Ingeniería de Software",
+      "institution": "Universidad de California, Berkeley",
+      "period": "2009 - 2013",
+      "description": "Graduado con honores. Participé en múltiples hackathons y competencias de programación. Completé una pasantía en Google."
+    }
+  ],
+  "keyProjects": [
+    {
+      "title": "Plataforma de Comercio Electrónico",
+      "description": "Una solución completa de comercio electrónico con procesamiento de pagos, gestión de inventario y panel de análisis.",
+      "technologies": ["React", "Node.js", "MongoDB", "Stripe"]
+    },
+    {
+      "title": "Panel Financiero",
+      "description": "Un panel interactivo para visualizar datos financieros con gráficos personalizables e informes automatizados.",
+      "technologies": ["React", "D3.js", "Express", "Redis"]
+    }
+  ]
+}
+

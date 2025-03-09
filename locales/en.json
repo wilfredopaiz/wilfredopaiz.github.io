@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "allProjects": "All Projects",
+    "cv": "CV"
+  },
+  "hero": {
+    "title": "Software Developer & Problem Solver",
+    "subtitle": "I build elegant solutions to complex problems with clean, efficient code.",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "I'm Wilfredo Paiz, a passionate software developer with expertise in building modern web applications. With a strong foundation in both frontend and backend technologies, I create seamless user experiences backed by robust architecture.",
+    "paragraph2": "My approach combines technical excellence with creative problem-solving, allowing me to deliver solutions that are both innovative and maintainable."
+  },
+  "skills": {
+    "title": "Skills & Technologies"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "viewAll": "View All Projects",
+    "backToHome": "Back to Home",
+    "backToProjects": "Back to Projects",
+    "allProjectsTitle": "My Projects",
+    "allProjectsDescription": "A collection of my work spanning web applications, mobile development, and more. Each project represents a unique challenge and solution."
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Interested in working together? Feel free to reach out through any of the channels below.",
+    "email": "Email Me",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "language": {
+    "en": "English",
+    "es": "Spanish"
+  },
+  "cv": {
+    "title": "Curriculum Vitae",
+    "subtitle": "My professional experience, education, and skills",
+    "backToHome": "Back to Home",
+    "download": "Download CV",
+    "personalInfo": "Personal Information",
+    "birthDate": "Date of Birth",
+    "location": "Location",
+    "email": "Email",
+    "skills": "Skills",
+    "programmingLanguages": "Programming Languages",
+    "frameworks": "Frameworks & Libraries",
+    "databases": "Databases",
+    "tools": "Tools & Platforms",
+    "languages": "Languages",
+    "fluent": "Fluent",
+    "native": "Native",
+    "intermediate": "Intermediate",
+    "certifications": "Certifications",
+    "workExperience": "Work Experience",
+    "education": "Education",
+    "keyProjects": "Key Projects",
+    "viewAll": "View All"
+  },
+  "projectView": {
+    "viewCode": "View Code",
+    "liveDemoButton": "Live Demo",
+    "overview": "Overview",
+    "features": "Features",
+    "challenges": "Challenges",
+    "solutions": "Solutions",
+    "results": "Results",
+    "technologies": "Technologies Used",
+    "moreProjects": "More Projects",
+    "completed": "Completed"
+  }
+}
+

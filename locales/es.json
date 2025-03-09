@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "about": "Sobre Mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "allProjects": "Todos los Proyectos",
+    "cv": "Currículum"
+  },
+  "hero": {
+    "title": "Desarrollador de Software & Solucionador de Problemas",
+    "subtitle": "Construyo soluciones elegantes para problemas complejos con código limpio y eficiente.",
+    "viewProjects": "Ver Proyectos",
+    "contactMe": "Contáctame"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "paragraph1": "Soy Wilfredo Paiz, un desarrollador de software apasionado con experiencia en la creación de aplicaciones web modernas. Con una sólida base en tecnologías frontend y backend, creo experiencias de usuario fluidas respaldadas por una arquitectura robusta.",
+    "paragraph2": "Mi enfoque combina excelencia técnica con resolución creativa de problemas, lo que me permite ofrecer soluciones que son tanto innovadoras como mantenibles."
+  },
+  "skills": {
+    "title": "Habilidades y Tecnologías"
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "viewAll": "Ver Todos los Proyectos",
+    "backToHome": "Volver al Inicio",
+    "backToProjects": "Volver a Proyectos",
+    "allProjectsTitle": "Mis Proyectos",
+    "allProjectsDescription": "Una colección de mi trabajo que abarca aplicaciones web, desarrollo móvil y más. Cada proyecto representa un desafío único y una solución."
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "¿Interesado en trabajar juntos? No dudes en contactarme a través de cualquiera de los canales a continuación.",
+    "email": "Envíame un Email",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  },
+  "language": {
+    "en": "Inglés",
+    "es": "Español"
+  },
+  "cv": {
+    "title": "Currículum Vitae",
+    "subtitle": "Mi experiencia profesional, educación y habilidades",
+    "backToHome": "Volver al Inicio",
+    "download": "Descargar CV",
+    "personalInfo": "Información Personal",
+    "birthDate": "Fecha de Nacimiento",
+    "location": "Ubicación",
+    "email": "Correo Electrónico",
+    "skills": "Habilidades",
+    "programmingLanguages": "Lenguajes de Programación",
+    "frameworks": "Frameworks y Bibliotecas",
+    "databases": "Bases de Datos",
+    "tools": "Herramientas y Plataformas",
+    "languages": "Idiomas",
+    "fluent": "Fluido",
+    "native": "Nativo",
+    "intermediate": "Intermedio",
+    "certifications": "Certificaciones",
+    "workExperience": "Experiencia Laboral",
+    "education": "Educación",
+    "keyProjects": "Proyectos Clave",
+    "viewAll": "Ver Todos"
+  },
+  "projectView": {
+    "viewCode": "Ver Código",
+    "liveDemoButton": "Demo en Vivo",
+    "overview": "Descripción General",
+    "features": "Características",
+    "challenges": "Desafíos",
+    "solutions": "Soluciones",
+    "results": "Resultados",
+    "technologies": "Tecnologías Utilizadas",
+    "moreProjects": "Más Proyectos",
+    "completed": "Completado"
+  }
+}
+
