@@ -21,9 +21,7 @@ const fadeIn = {
   visible: { opacity: 1, y: 0 },
 }
 
-import { ReactNode } from "react"
-
-function AnimatedSection({ children, delay = 0, className = "", id = "" }: { children: ReactNode, delay?: number, className?: string, id?: string }) {
+function AnimatedSection({ children, delay = 0, className = "", id = "" }) {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px 0px" })
 
