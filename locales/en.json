@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact",
+    "allProjects": "All Projects",
+    "cv": "CV"
+  },
+  "hero": {
+    "title": "Software Developer Specializing in Web and Backend Architectures",
+    "subtitle": "I build optimized, secure, and scalable applications using modern technologies.",
+    "viewProjects": "View Projects",
+    "contactMe": "Contact Me"
+  },
+  "about": {
+    "title": "About Me",
+    "paragraph1": "I am Wilfredo Paiz, a computer engineer passionate about web and mobile development. I have 6 years of experience in software development, specializing in creating APIs and UIs using various frameworks. Additionally, I have solid knowledge in production deployments with Docker and Kubernetes.",
+    "paragraph2": "Throughout my career, I have worked in companies from fintech, e-learning, SaaS, and digital agency sectors, participating in key projects that have impacted hundreds of users."
+  },
+  "skills": {
+    "title": "Skills & Technologies"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "viewAll": "View All Projects",
+    "backToHome": "Back to Home",
+    "backToProjects": "Back to Projects",
+    "allProjectsTitle": "My Projects",
+    "allProjectsDescription": "A collection of my work spanning web applications, mobile development, and more. Each project represents a unique challenge and solution.",
+    "viewDetails": "View Details"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Interested in working together? Feel free to reach out through any of the channels below.",
+    "email": "Email Me",
+    "linkedin": "LinkedIn",
+    "github": "GitHub"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  },
+  "language": {
+    "en": "English",
+    "es": "Spanish"
+  },
+  "cv": {
+    "title": "Curriculum Vitae",
+    "subtitle": "My professional experience, education, and skills",
+    "backToHome": "Back to Home",
+    "download": "Download CV",
+    "personalInfo": "Personal Information",
+    "birthDate": "Date of Birth",
+    "location": "Location",
+    "email": "Email",
+    "skills": "Skills",
+    "programmingLanguages": "Programming Languages",
+    "frameworks": "Frameworks & Libraries",
+    "databases": "Databases",
+    "tools": "Tools & Platforms",
+    "languages": "Languages",
+    "fluent": "Fluent",
+    "native": "Native",
+    "intermediate": "Intermediate",
+    "certifications": "Certifications",
+    "workExperience": "Work Experience",
+    "education": "Education",
+    "keyProjects": "Key Projects",
+    "viewAll": "View All"
+  },
+  "projectView": {
+    "viewCode": "View Code",
+    "liveDemoButton": "Live Demo",
+    "overview": "Overview",
+    "features": "Features",
+    "challenges": "Challenges",
+    "solutions": "Solutions",
+    "results": "Results",
+    "technologies": "Technologies Used",
+    "moreProjects": "More Projects",
+    "completed": "Completed"
+  }
+}

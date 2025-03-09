@@ -1,0 +1,71 @@
+[
+  {
+    "id": "incidencias-vlc",
+    "title": "Plataforma para el reporte de incidencias",
+    "description": "Una solución tecnológica que combina una aplicación móvil, un panel de administración y una arquitectura de microservicios, orientada a la gestión y reporte de incidencias urbanas en la ciudad de Valencia, España.",
+    "longDescription": " La aplicación móvil ha sido desarrollada utilizando React Native con Expo, mientras que el panel de administración se ha implementado en Angular. La arquitectura de microservicios incluye servicios realizados en Spring y NodeJS, contenerizados con Docker y orquestados mediante Kubernetes.",
+    "technologies": [
+      "Angular",
+      "React Native",
+      "Expo",
+      "Spring Boot",
+      "Git",
+      "Docker",
+      "Kubernetes",
+      "Python"
+    ],
+    "features": [
+      "Mapa interactivo con incidencias cercanas",
+      "Visualización de ubicación en tiempo real",
+      "Reporte de incidencias con imagen y descripción",
+      "Comentarios en incidencias (requiere inicio de sesión)",
+      "Lista de incidencias recientes",
+      "Panel de administración con análisis de incidencias",
+      "Gestión de usuarios, incidencias y categorías en el panel de administración",
+      "Autenticación de usuarios y administradores"
+    ],
+    "challenges": "Uno de los principales desafíos fue garantizar una actualización en tiempo real de las incidencias reportadas en el mapa sin afectar el rendimiento. Otro desafío fue asegurar un sistema de autenticación seguro para usuarios y administradores con diferentes niveles de acceso.",
+    "solutions": "Implementamos WebSockets para actualizar las incidencias en el mapa en tiempo real sin necesidad de recargar la aplicación. Además, utilizamos OAuth y JWT para gestionar la autenticación de manera segura, permitiendo roles diferenciados entre usuarios y administradores.",
+    "results": "La aplicación mejoró la respuesta a incidencias en un 60%, reduciendo el tiempo de reporte y visualización. La autenticación segura evitó accesos no autorizados, y el uso del mapa interactivo incrementó la participación de los usuarios en un 40%.",
+    "images": [
+      "/projects/incidencias-1.png"
+    ],
+    "githubUrl": "https://github.com/wpayze/Incidencias-VLC",
+    "date": "2024-09-01"
+  },
+  {
+    "id": "omega-empleos",
+    "title": "Omega Empleos",
+    "description": "Una plataforma de búsqueda de empleo que conecta a candidatos con empresas mediante ofertas de trabajo en tiempo real, filtros avanzados y comunicación integrada.",
+    "longDescription": "Omega Empleos es una aplicación que permite a los usuarios encontrar oportunidades laborales de manera eficiente mediante un sistema de búsqueda avanzada, notificaciones en tiempo real y herramientas de gestión de postulaciones. La plataforma ofrece un perfil profesional dinámico, chat entre candidatos y empleadores, y recomendaciones personalizadas basadas en experiencia y preferencias.",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Python",
+      "FastAPI",
+      "TailwindCSS",
+      "Redis",
+      "Docker",
+      "Kubernetes"
+    ],
+    "features": [
+      "Búsqueda avanzada de empleos con filtros personalizados",
+      "Creación y gestión de perfiles profesionales",
+      "Postulación a ofertas de trabajo con un solo clic",
+      "Notificaciones en tiempo real sobre nuevas oportunidades",
+      "Sistema de chat entre candidatos y empleadores",
+      "Publicación y gestión de ofertas laborales para empresas",
+      "Recomendaciones personalizadas basadas en perfil y experiencia",
+      "Panel de administración para empresas y reclutadores"
+    ],
+    "challenges": "Uno de los principales desafíos fue garantizar que la búsqueda de empleos fuera rápida y relevante para cada usuario, a la vez que manejábamos un gran volumen de ofertas en tiempo real. También era importante diseñar un sistema de comunicación efectivo entre candidatos y empleadores sin comprometer la privacidad.",
+    "solutions": "Optimizamos la base de datos con índices avanzados y caching con Redis para acelerar la búsqueda. Además, implementamos un sistema de chat seguro basado en WebSockets con cifrado de extremo a extremo para proteger la comunicación.",
+    "results": "Esperamos que la plataforma conecte a muchos candidatos.",
+    "images": [
+      "/projects/omega-empleos.png"
+    ],
+    "liveUrl": "https://omegaempleos.com",
+    "date": "2025-03-09"
+  }
+]

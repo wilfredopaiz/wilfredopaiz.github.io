@@ -1,0 +1,71 @@
+[
+  {
+    "id": "incidencias-vlc",
+    "title": "Incident Reporting Platform",
+    "description": "A technological solution that combines a mobile application, an administration panel, and a microservices architecture, aimed at managing and reporting urban incidents in the city of Valencia, Spain.",
+    "longDescription": "The mobile application has been developed using React Native with Expo, while the administration panel has been implemented in Angular. The microservices architecture includes services built with Spring and NodeJS, containerized with Docker and orchestrated using Kubernetes.",
+    "technologies": [
+      "Angular",
+      "React Native",
+      "Expo",
+      "Spring Boot",
+      "Git",
+      "Docker",
+      "Kubernetes",
+      "Python"
+    ],
+    "features": [
+      "Interactive map with nearby incidents",
+      "Real-time location visualization",
+      "Incident reporting with images and descriptions",
+      "Incident comments (requires login)",
+      "List of recent incidents",
+      "Admin panel with incident analytics",
+      "User, incident, and category management in the admin panel",
+      "User and admin authentication"
+    ],
+    "challenges": "One of the main challenges was ensuring real-time updates of reported incidents on the map without affecting performance. Another challenge was securing the authentication system for users and administrators with different access levels.",
+    "solutions": "We implemented WebSockets to update incidents on the map in real-time without requiring page reloads. Additionally, we used OAuth and JWT to securely manage authentication, allowing differentiated roles between users and administrators.",
+    "results": "The application improved incident response by 60%, reducing reporting and visualization time. Secure authentication prevented unauthorized access, and the interactive map usage increased user engagement by 40%.",
+    "images": [
+      "/projects/incidencias-1.png"
+    ],
+    "githubUrl": "https://github.com/wpayze/Incidencias-VLC",
+    "date": "2024-09-01"
+  },
+  {
+    "id": "omega-empleos",
+    "title": "Omega Empleos",
+    "description": "A job search platform that connects candidates with companies through real-time job postings, advanced filters, and integrated communication.",
+    "longDescription": "Omega Jobs is an application that allows users to efficiently find job opportunities through an advanced search system, real-time notifications, and application tracking tools. The platform offers a dynamic professional profile, chat between candidates and employers, and personalized recommendations based on experience and preferences.",
+    "technologies": [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Python",
+      "FastAPI",
+      "TailwindCSS",
+      "Redis",
+      "Docker",
+      "Kubernetes"
+    ],
+    "features": [
+      "Advanced job search with personalized filters",
+      "Creation and management of professional profiles",
+      "One-click job application",
+      "Real-time notifications about new opportunities",
+      "Chat system between candidates and employers",
+      "Job posting and management for companies",
+      "Personalized recommendations based on profile and experience",
+      "Admin panel for companies and recruiters"
+    ],
+    "challenges": "One of the main challenges was ensuring that job searches were fast and relevant for each user while handling a high volume of real-time job postings. It was also important to design an effective communication system between candidates and employers without compromising privacy.",
+    "solutions": "We optimized the database with advanced indexing and caching using Redis to speed up searches. Additionally, we implemented a secure chat system based on WebSockets with end-to-end encryption to protect communication.",
+    "results": "We expect the platform to connect many candidates with companies.",
+    "images": [
+      "/projects/omega-empleos.png"
+    ],
+    "liveUrl": "https://omegaempleos.com",
+    "date": "2025-03-09"
+  }
+]
