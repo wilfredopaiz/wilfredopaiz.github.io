@@ -12,5 +12,6 @@ export type Project = {
     githubUrl?: string;
     liveUrl?: string;
     date: string;
+    status?: "completed" | "in-progress";
   };
   

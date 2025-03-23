@@ -28,7 +28,13 @@
     "backToProjects": "Back to Projects",
     "allProjectsTitle": "My Projects",
     "allProjectsDescription": "A collection of my work spanning web applications, mobile development, and more. Each project represents a unique challenge and solution.",
-    "viewDetails": "View Details"
+    "viewDetails": "View Details",
+    "filters": {
+      "noProjects": "No projects match the selected filters.",
+      "clearFilters": "Clear all filters",
+      "hero": "Technologies",
+      "title": "Filter by Technology"
+    }
   },
   "contact": {
     "title": "Get In Touch",
@@ -78,6 +84,10 @@
     "results": "Results",
     "technologies": "Technologies Used",
     "moreProjects": "More Projects",
-    "completed": "Completed"
+    "completed": "Completed",
+    "status": {
+      "completed": "Completed",
+      "in-progress": "In Progress"
+    }
   }
 }

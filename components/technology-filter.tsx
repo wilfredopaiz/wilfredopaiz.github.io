@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { cn } from "@/lib/utils"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
+import { useLanguage } from "@/contexts/language-context"
 
 interface TechnologyFilterProps {
   technologies: string[]
@@ -15,6 +16,7 @@ interface TechnologyFilterProps {
 
 export default function TechnologyFilter({ technologies, selectedTechnologies, onChange }: TechnologyFilterProps) {
   const [open, setOpen] = useState(false)
+  const { t } = useLanguage()
 
   const toggleTechnology = (tech: string) => {
     if (selectedTechnologies.includes(tech)) {
@@ -36,13 +38,13 @@ export default function TechnologyFilter({ technologies, selectedTechnologies, o
             variant="outline"
             className="border-gray-700 text-gray-300 hover:text-white transition-all duration-300 w-full sm:w-auto"
           >
-            Filter by technology
+            {t("projects.filters.title")}
             <ChevronDown className="ml-2 h-4 w-4 opacity-50" />
           </Button>
         </PopoverTrigger>
         <PopoverContent className="w-64 p-0 bg-gray-900 border-gray-800">
           <div className="p-2">
-            <div className="text-sm font-medium text-gray-300 mb-2">Technologies</div>
+            <div className="text-sm font-medium text-gray-300 mb-2">{t("projects.filters.hero")}</div>
             <div className="space-y-1 max-h-[300px] overflow-auto">
               {technologies.map((tech) => (
                 <div
@@ -67,7 +69,7 @@ export default function TechnologyFilter({ technologies, selectedTechnologies, o
       <div className="flex flex-wrap gap-2 mt-2 sm:mt-0">
         {selectedTechnologies.length > 0 && (
           <Button variant="ghost" size="sm" onClick={clearFilters} className="h-8 text-gray-400 hover:text-white">
-            Clear filters
+            {t("projects.filters.clearFilters")}
             <X className="ml-2 h-3 w-3" />
           </Button>
         )}

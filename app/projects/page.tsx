@@ -87,13 +87,13 @@ export default function ProjectsPage() {
 
         {filteredProjects.length === 0 ? (
           <div className="text-center py-12">
-            <p className="text-gray-400 text-lg">No projects match the selected filters.</p>
+            <p className="text-gray-400 text-lg">{t("projects.filters.noProjects")}</p>
             <Button
               variant="link"
               onClick={() => setSelectedTechnologies([])}
               className="text-purple-400 hover:text-purple-300 mt-2"
             >
-              Clear all filters
+              {t("projects.filters.clearFilters")}
             </Button>
           </div>
         ) : (
@@ -114,6 +114,7 @@ export default function ProjectsPage() {
                 liveUrl={project.liveUrl}
                 id={project.id}
                 index={index}
+                status={project.status}
               />
             ))}
           </motion.div>

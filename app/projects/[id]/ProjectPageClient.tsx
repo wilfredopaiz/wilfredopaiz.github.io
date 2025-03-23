@@ -12,6 +12,7 @@ import { motion } from "framer-motion";
 import ImageCarousel from "@/components/image-carousel";
 import { getProjectById, getProjectsData } from "@/utils/data-loader";
 import { Project } from "@/utils/types";
+import { StatusBadge } from "@/components/status-badge"
 
 type ProjectPageClientProps = {
   projectId: string;
@@ -21,7 +22,7 @@ export default function ProjectPageClient({ projectId }: ProjectPageClientProps)
   const { t, language } = useLanguage();
 
   const project: Project | null = getProjectById(projectId, language);
-  const allProjects: Project[] = getProjectsData(language);  
+  const allProjects: Project[] = getProjectsData(language);
 
   const defaultProject = {
     id: "not-found",
@@ -82,6 +83,14 @@ export default function ProjectPageClient({ projectId }: ProjectPageClientProps)
             <h1 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-purple-500 to-blue-500 bg-clip-text text-transparent">
               {projectData.title}
             </h1>
+            {projectData.status && (
+              <div className="mt-2">
+                <StatusBadge
+                  variant={projectData.status as any}
+                  status={t(`projectView.status.${projectData.status}`)}
+                />
+              </div>
+            )}
           </div>
           <div className="flex gap-4">
             {projectData.githubUrl && (

@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
 import { motion } from "framer-motion"
+import { StatusBadge } from "@/components/status-badge"
 import { useLanguage } from "@/contexts/language-context"
 
 interface ProjectCardProps {
@@ -17,6 +18,7 @@ interface ProjectCardProps {
   liveUrl?: string
   id?: string
   index?: number
+  status?: string // Add status prop
 }
 
 export default function ProjectCard({
@@ -28,6 +30,7 @@ export default function ProjectCard({
   liveUrl,
   id = title.toLowerCase().replace(/\s+/g, "-"),
   index = 0,
+  status = "completed", // Default to completed
 }: ProjectCardProps) {
   const { t } = useLanguage()
   // Item animation for use in staggered containers
@@ -62,6 +65,11 @@ export default function ProjectCard({
               {title}
             </CardTitle>
           </Link>
+          {status && (
+            <div className="mt-1">
+              <StatusBadge variant={status as any} status={t(`projectView.status.${status}`)} />
+            </div>
+          )}
           <CardDescription className="text-gray-400 line-clamp-2">{description}</CardDescription>
         </CardHeader>
         <CardContent className="flex-grow overflow-hidden">

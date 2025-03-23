@@ -184,6 +184,7 @@ export default function Portfolio() {
                   imageUrl={project.images[0]}
                   id={project.id}
                   index={index}
+                  status={project.status}
                 />
               ))}
             </div>

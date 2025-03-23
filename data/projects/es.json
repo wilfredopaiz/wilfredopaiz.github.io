@@ -31,7 +31,8 @@
       "/projects/incidencias-1.png"
     ],
     "githubUrl": "https://github.com/wpayze/Incidencias-VLC",
-    "date": "2024-09-01"
+    "date": "2024-09-01",
+    "status": "completed"
   },
   {
     "id": "omega-empleos",
@@ -66,6 +67,7 @@
       "/projects/omega-empleos.png"
     ],
     "liveUrl": "https://omegaempleos.com",
-    "date": "2025-03-09"
+    "date": "2025-03-09",
+    "status": "in-progress"
   }
 ]
