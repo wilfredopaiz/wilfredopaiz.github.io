@@ -12,16 +12,15 @@ import Navbar from "@/components/navbar"
 import { useLanguage } from "@/contexts/language-context"
 import { motion } from "framer-motion"
 import { useInView } from "framer-motion"
-import { useRef } from "react"
+import { useRef, ReactNode} from "react"
 import { getProjectsData } from "@/utils/data-loader"
 
-// Animation variants
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0 },
 }
 
-function AnimatedSection({ children, delay = 0, className = "", id = "" }) {
+function AnimatedSection({ children, delay = 0, className = "", id = "" }: { children: ReactNode, delay?: number, className?: string, id?: string }) {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-100px 0px" })
 

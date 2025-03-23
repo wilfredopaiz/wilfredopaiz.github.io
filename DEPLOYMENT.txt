@@ -1,0 +1,4 @@
+No borres todo /docs, mantene el sitemap (o actualizalo si agregaste nuevas paginas).
+No borres CNAME
+
+El resto si reemplazalo si hace falta.

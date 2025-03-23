@@ -57,7 +57,25 @@
   ],
   "workExperience": [
     {
-      "position": "Software Consultant",
+      "position": "Software Engineer",
+      "company": "Savvly, Inc.",
+      "period": "Desde Mar 2025",
+      "location": "Boulder, Colorado, Estados Unidos",
+      "type": "Remoto",
+      "description": "Contribuyo activamente al desarrollo de diversas soluciones tecnológicas para el producto fintech de Savvly enfocado en la gestión patrimonial. Participo en el desarrollo backend implementando APIs y servicios que procesan datos financieros complejos, y en el desarrollo frontend mejorando la experiencia de usuario en el panel de control para asesores financieros.",
+      "technologies": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Microsoft Azure",
+        "PostgreSQL",
+        "Docker",
+        "Spring Boot",
+        "Java"
+      ]
+    },
+    {
+      "position": "Software Developer",
       "company": "CompSci, LLC",
       "period": "Abr 2020 - Mar 2025",
       "location": "Dallas, Texas, Estados Unidos",
