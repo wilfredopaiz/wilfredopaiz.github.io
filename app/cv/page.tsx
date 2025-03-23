@@ -56,10 +56,14 @@ export default function CVPage() {
                 {t("cv.backToHome")}
               </Button>
             </Link>
-            <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 transition-all duration-300">
+            <a
+              href="/CV.pdf"
+              download
+              className="inline-flex items-center bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-medium px-4 py-2 rounded-md transition-all duration-300"
+            >
               <Download className="mr-2 h-4 w-4" />
               {t("cv.download")}
-            </Button>
+            </a>
           </div>
         </motion.div>
 
