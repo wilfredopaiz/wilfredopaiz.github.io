@@ -1,5 +1,41 @@
 [
   {
+    "id": "chess98",
+    "title": "Chess98 - Chess Platform",
+    "description": "My own chess server where users can play each other, analyze games, and improve their skills.",
+    "longDescription": "Chess98 is my own chess server, like Lichess or Chess.com, where users can play against each other, analyze games, and solve puzzles. The platform includes a chess engine for game analysis, a matchmaking system for real-time games, and 2.5 million tactical puzzles.",
+    "technologies": [
+      "Python",
+      "WebSockets",
+      "FastAPI",
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "features": [
+      "Play real-time games against other users",
+      "Analyze your games with a built-in chess engine",
+      "Solve tactical puzzles to level up your skills",
+      "Matchmaking system to find opponents easily",
+      "Clean and user-friendly interface",
+      "Database with 2.5 million tactical puzzles"
+    ],
+    "challenges": "One of the biggest challenges was making sure gameplay felt smooth and real-time. It was also important to build an efficient chess engine for analysis.",
+    "solutions": "I used WebSockets for real-time communication between players and the server. I also integrated an optimized chess engine so users can get instant feedback when reviewing their games.",
+    "results": "Users can play and review their games easily. The platform has gotten good feedback for its smooth interface and the quality of the tactical puzzles.",
+    "images": [
+      "/projects/chess98/analysis.png",
+      "/projects/chess98/index.png",
+      "/projects/chess98/puzzles.png",
+      "/projects/chess98/profile.png",
+      "/projects/chess98/settings.png"
+    ],
+    "githubUrl": "https://github.com/wpayze/chess98",
+    "liveUrl": "https://chess98.com",
+    "date": "2025-03-15",
+    "status": "completed"
+  },
+  {
     "id": "incidencias-vlc",
     "title": "Incident Reporting Platform",
     "description": "A technological solution that combines a mobile application, an administration panel, and a microservices architecture, aimed at managing and reporting urban incidents in the city of Valencia, Spain.",

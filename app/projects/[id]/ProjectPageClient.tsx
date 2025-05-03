@@ -36,6 +36,9 @@ export default function ProjectPageClient({ projectId }: ProjectPageClientProps)
     results: "",
     images: ["/placeholder.svg?height=600&width=1200"],
     date: "",
+    githubUrl: "",
+    status: "inactive",
+    liveUrl: ""
   };
 
   const projectData = project || defaultProject;

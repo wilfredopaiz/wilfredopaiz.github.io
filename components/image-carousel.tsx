@@ -100,7 +100,7 @@ export default function ImageCarousel({ images, alt }: ImageCarouselProps) {
             src={images[currentIndex] || "/placeholder.svg"}
             alt={`${alt} - image ${currentIndex + 1}`}
             fill
-            className="object-cover"
+            className="object-contain"
             priority={currentIndex === 0}
           />
         </motion.div>

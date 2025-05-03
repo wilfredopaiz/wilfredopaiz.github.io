@@ -1,5 +1,41 @@
 [
   {
+    "id": "chess98",
+    "title": "Chess98 - Plataforma de Ajedrez",
+    "description": "Mi propio servidor de ajedrez, donde los usuarios pueden jugar entre sí, analizar partidas y mejorar sus habilidades.",
+    "longDescription": "Chess98 es mi propio servidor de ajedrez, como Lichess o Chess.com, donde los usuarios pueden jugar entre sí, analizar partidas y resolver ejercicios. La plataforma incluye un motor de ajedrez para análisis de partidas, un sistema de emparejamiento para juegos en tiempo real y 2.5 millones de ejercicios tácticos.",
+    "technologies": [
+      "Python",
+      "WebSockets",
+      "FastAPI",
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL"
+    ],
+    "features": [
+      "Juega partidas en tiempo real contra otros usuarios",
+      "Analiza tus partidas con un motor de ajedrez",
+      "Resuelve ejercicios tácticos y mejora tus habilidades",
+      "Sistema de emparejamiento para encontrar oponentes",
+      "Interfaz intuitiva y fácil de usar",
+      "Base de datos con 2.5 millones de ejercicios tácticos"
+    ],
+    "challenges": "Uno de los principales desafíos fue garantizar una experiencia de juego fluida y en tiempo real. También fue importante implementar un motor de ajedrez eficiente para el análisis de partidas.",
+    "solutions": "Implementé WebSockets para la comunicación en tiempo real entre los jugadores y el servidor. Utilicé un motor de ajedrez optimizado para el análisis de partidas, lo que permite a los usuarios recibir retroalimentación instantánea.",
+    "results": "Los usuarios pueden jugar entre sí y analizar sus partidas. La plataforma ha recibido comentarios positivos por su interfaz intuitiva y la calidad de los ejercicios tácticos.",
+    "images": [
+      "/projects/chess98/analysis.png",
+      "/projects/chess98/index.png",
+      "/projects/chess98/puzzles.png",
+      "/projects/chess98/profile.png",
+      "/projects/chess98/settings.png"
+    ],
+    "githubUrl": "https://github.com/wpayze/chess98",
+    "liveUrl": "https://chess98.com",
+    "date": "2025-03-15",
+    "status": "completed"
+  },
+  {
     "id": "incidencias-vlc",
     "title": "Plataforma para el reporte de incidencias",
     "description": "Una solución tecnológica que combina una aplicación móvil, un panel de administración y una arquitectura de microservicios, orientada a la gestión y reporte de incidencias urbanas en la ciudad de Valencia, España.",
